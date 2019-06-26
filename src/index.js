@@ -4,10 +4,6 @@ Step 3. append the list element to the UL element */
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-  // let tasks = [];
-
-  // let form = document.getElementById('form');
 
   function deleteTask() {
     this.parentNode.remove();
